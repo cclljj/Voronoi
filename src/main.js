@@ -51,12 +51,11 @@ function setStatus(message, mode = "normal") {
 }
 
 function formatDockTime(now = new Date()) {
-  const local = now.toLocaleString("zh-TW", {
+  return now.toLocaleString("zh-TW", {
     hour12: false,
     timeZone: "Asia/Taipei",
     timeZoneName: "short"
   });
-  return `Current Time (Asia/Taipei): ${local}`;
 }
 
 function startLogoClock() {

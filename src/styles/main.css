@@ -107,7 +107,7 @@ body {
   z-index: 1000;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   gap: 6px;
   padding: 6px 8px;
   border: 1px solid rgba(255, 255, 255, 0.42);
@@ -118,15 +118,16 @@ body {
 
 .logo-links {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
   flex-wrap: nowrap;
   gap: 10px;
 }
 
 .logo-link {
   display: inline-flex;
-  align-items: flex-end;
-  height: 30px;
+  align-items: center;
+  height: 34px;
 }
 
 .logo-link img {
@@ -142,6 +143,8 @@ body {
   color: #1f2a36;
   font-weight: 600;
   white-space: nowrap;
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -354,12 +357,13 @@ body {
   }
 
   .logo-links {
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     gap: 8px;
   }
 
   .logo-link {
-    height: 24px;
+    height: 28px;
   }
 
   .logo-link img {
