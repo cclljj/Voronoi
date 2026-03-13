@@ -118,17 +118,19 @@ body {
 
 .logo-links {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
   gap: 10px;
 }
 
 .logo-link {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
+  height: 30px;
 }
 
 .logo-link img {
-  height: 30px;
+  height: 100%;
   width: auto;
   display: block;
   object-fit: contain;
@@ -352,11 +354,16 @@ body {
   }
 
   .logo-links {
+    align-items: flex-end;
     gap: 8px;
   }
 
-  .logo-link img {
+  .logo-link {
     height: 24px;
+  }
+
+  .logo-link img {
+    height: 100%;
   }
 
   .logo-time {
