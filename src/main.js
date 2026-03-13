@@ -67,26 +67,6 @@ function formatLocaleTimestamp(rawValue) {
   });
 }
 
-function formatDockVersion(dataVersion, lastModified) {
-  const versionText = String(dataVersion ?? "").trim();
-  if (versionText) {
-    if (/^\d{10}$/.test(versionText)) {
-      const formatted = formatLocaleTimestamp(Number(versionText) * 1000);
-      return formatted || versionText;
-    }
-
-    if (/^\d{13}$/.test(versionText)) {
-      const formatted = formatLocaleTimestamp(Number(versionText));
-      return formatted || versionText;
-    }
-
-    const formatted = formatLocaleTimestamp(versionText);
-    return formatted || versionText;
-  }
-
-  return formatLocaleTimestamp(lastModified) || "unknown";
-}
-
 function groupSensorTypes(sensors) {
   const map = new Map();
 
@@ -196,7 +176,7 @@ async function bootstrap() {
 
       dom.lastUpdated.textContent = formatLastUpdated(payload.lastModified);
       if (dom.logoTime) {
-        dom.logoTime.textContent = formatDockVersion(payload.dataVersion, payload.lastModified);
+        dom.logoTime.textContent = formatLocaleTimestamp(payload.lastModified) || "unknown";
       }
       setStatus("Live", "normal");
       return true;

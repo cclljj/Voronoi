@@ -97,26 +97,6 @@ function formatLocaleTimestamp(rawValue) {
   });
 }
 
-function formatDockVersion(dataVersion, lastModified) {
-  const versionText = String(dataVersion ?? "").trim();
-  if (versionText) {
-    if (/^\d{10}$/.test(versionText)) {
-      const formatted = formatLocaleTimestamp(Number(versionText) * 1000);
-      return formatted || versionText;
-    }
-
-    if (/^\d{13}$/.test(versionText)) {
-      const formatted = formatLocaleTimestamp(Number(versionText));
-      return formatted || versionText;
-    }
-
-    const formatted = formatLocaleTimestamp(versionText);
-    return formatted || versionText;
-  }
-
-  return formatLocaleTimestamp(lastModified) || "unknown";
-}
-
 function formatLastUpdated(rawValue) {
   const value = rawValue ? new Date(rawValue) : new Date();
   if (Number.isNaN(value.valueOf())) {
@@ -169,24 +149,15 @@ function parseCsv(csvText) {
   const rows = csvParse(csvText);
   const headers = rows.columns || [];
   const missing = REQUIRED_COLUMNS.filter((column) => !headers.includes(column));
-  const versionColumn = headers.find((column) => String(column).trim().toLowerCase() === "version");
 
   if (missing.length > 0) {
     throw new Error(`Missing required columns: ${missing.join(", ")}`);
   }
 
   const sensors = [];
-  let dataVersion = "";
 
   rows.forEach((row, idx) => {
     const line = idx + 2;
-
-    if (!dataVersion && versionColumn) {
-      const candidate = String(row[versionColumn] || "").trim();
-      if (candidate) {
-        dataVersion = candidate;
-      }
-    }
 
     const latitude = Number.parseFloat(row.latitude);
     const longitude = Number.parseFloat(row.longitude);
@@ -226,10 +197,7 @@ function parseCsv(csvText) {
     });
   });
 
-  return {
-    sensors,
-    dataVersion
-  };
+  return sensors;
 }
 
 async function fetchCsvWithFallback(urls) {
@@ -242,12 +210,10 @@ async function fetchCsvWithFallback(urls) {
         throw new Error(`HTTP ${response.status}`);
       }
       const csvText = await response.text();
-      const parsed = parseCsv(csvText);
       return {
         url,
         lastModified: response.headers.get("Last-Modified"),
-        sensors: parsed.sensors,
-        dataVersion: parsed.dataVersion
+        sensors: parseCsv(csvText)
       };
     } catch (error) {
       lastError = error;
@@ -584,7 +550,7 @@ async function refreshData() {
 
     dom.lastUpdated.textContent = `${formatLastUpdated(payload.lastModified)} | Source: ${payload.url}`;
     if (dom.logoTime) {
-      dom.logoTime.textContent = formatDockVersion(payload.dataVersion, payload.lastModified);
+      dom.logoTime.textContent = formatLocaleTimestamp(payload.lastModified) || "unknown";
     }
     setStatus("Live");
 
