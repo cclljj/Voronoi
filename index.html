@@ -7,9 +7,9 @@
     <meta property="og:title" content="LASS: Voronoi Diagram of PM2.5 Stations" />
     <meta property="og:description" content="LASS: Voronoi Diagram of PM2.5 Stations" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://pm25.lass-net.org/GIS/voronoi/" />
+    <meta property="og:url" content="https://pm25.lass-net.org/GIS/Voronoi/" />
     <meta property="og:site_name" content="LASS: Voronoi Diagram of PM2.5 Stations" />
-    <link rel="icon" href="/LASS.ico" />
+    <link rel="icon" href="./public/LASS.ico" />
   </head>
   <body>
     <div id="app">
@@ -23,9 +23,9 @@
         <p id="last-updated" class="panel-meta">Loading...</p>
         <div id="controls" class="controls" role="group" aria-label="Sensor type filters"></div>
         <div class="logo-row" aria-hidden="true">
-          <img src="/images/AS-logo.png" alt="" />
-          <img src="/images/LASS-logo.png" alt="" />
-          <img src="/images/GHRepo-logo.png" alt="" />
+          <img src="./public/images/AS-logo.png" alt="" />
+          <img src="./public/images/LASS-logo.png" alt="" />
+          <img src="./public/images/GHRepo-logo.png" alt="" />
         </div>
       </aside>
 
@@ -45,6 +45,44 @@
       <div id="status" class="status-pill" aria-live="polite">Initializing...</div>
     </div>
 
-    <script type="module" src="/src/main.js"></script>
+    <script type="module">
+      const root = new URL("./", window.location.href);
+
+      async function loadLeafletForFallback() {
+        if (window.L) {
+          return;
+        }
+
+        const css = document.createElement("link");
+        css.rel = "stylesheet";
+        css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+        document.head.appendChild(css);
+
+        await new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+          script.onload = resolve;
+          script.onerror = reject;
+          document.head.appendChild(script);
+        });
+      }
+
+      async function bootstrap() {
+        try {
+          await import(new URL("./src/main.js", root).href);
+        } catch (error) {
+          console.warn("Vite-source bootstrap failed, fallback to plain-js:", error);
+          const css = document.createElement("link");
+          css.rel = "stylesheet";
+          css.href = new URL("./plain-js/styles.css", root).href;
+          document.head.appendChild(css);
+
+          await loadLeafletForFallback();
+          await import(new URL("./plain-js/app.js", root).href);
+        }
+      }
+
+      bootstrap();
+    </script>
   </body>
 </html>
