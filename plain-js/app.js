@@ -80,25 +80,41 @@ function setStatus(message, isError = false) {
   dom.status.classList.toggle("is-error", isError);
 }
 
-function formatDockTime(now = new Date()) {
-  return now.toLocaleString("zh-TW", {
+function formatLocaleTimestamp(rawValue) {
+  if (!rawValue) {
+    return "";
+  }
+
+  const value = rawValue instanceof Date ? rawValue : new Date(rawValue);
+  if (Number.isNaN(value.valueOf())) {
+    return "";
+  }
+
+  return value.toLocaleString("zh-TW", {
     hour12: false,
     timeZone: "Asia/Taipei",
     timeZoneName: "short"
   });
 }
 
-function startLogoClock() {
-  if (!dom.logoTime) {
-    return;
+function formatDockVersion(dataVersion, lastModified) {
+  const versionText = String(dataVersion ?? "").trim();
+  if (versionText) {
+    if (/^\d{10}$/.test(versionText)) {
+      const formatted = formatLocaleTimestamp(Number(versionText) * 1000);
+      return formatted || versionText;
+    }
+
+    if (/^\d{13}$/.test(versionText)) {
+      const formatted = formatLocaleTimestamp(Number(versionText));
+      return formatted || versionText;
+    }
+
+    const formatted = formatLocaleTimestamp(versionText);
+    return formatted || versionText;
   }
 
-  const refresh = () => {
-    dom.logoTime.textContent = formatDockTime();
-  };
-
-  refresh();
-  window.setInterval(refresh, 1000);
+  return formatLocaleTimestamp(lastModified) || "unknown";
 }
 
 function formatLastUpdated(rawValue) {
@@ -153,15 +169,25 @@ function parseCsv(csvText) {
   const rows = csvParse(csvText);
   const headers = rows.columns || [];
   const missing = REQUIRED_COLUMNS.filter((column) => !headers.includes(column));
+  const versionColumn = headers.find((column) => String(column).trim().toLowerCase() === "version");
 
   if (missing.length > 0) {
     throw new Error(`Missing required columns: ${missing.join(", ")}`);
   }
 
   const sensors = [];
+  let dataVersion = "";
 
   rows.forEach((row, idx) => {
     const line = idx + 2;
+
+    if (!dataVersion && versionColumn) {
+      const candidate = String(row[versionColumn] || "").trim();
+      if (candidate) {
+        dataVersion = candidate;
+      }
+    }
+
     const latitude = Number.parseFloat(row.latitude);
     const longitude = Number.parseFloat(row.longitude);
     const pm25 = Number.parseInt(row.pm25, 10);
@@ -200,7 +226,10 @@ function parseCsv(csvText) {
     });
   });
 
-  return sensors;
+  return {
+    sensors,
+    dataVersion
+  };
 }
 
 async function fetchCsvWithFallback(urls) {
@@ -213,10 +242,12 @@ async function fetchCsvWithFallback(urls) {
         throw new Error(`HTTP ${response.status}`);
       }
       const csvText = await response.text();
+      const parsed = parseCsv(csvText);
       return {
         url,
         lastModified: response.headers.get("Last-Modified"),
-        sensors: parseCsv(csvText)
+        sensors: parsed.sensors,
+        dataVersion: parsed.dataVersion
       };
     } catch (error) {
       lastError = error;
@@ -552,6 +583,9 @@ async function refreshData() {
     }
 
     dom.lastUpdated.textContent = `${formatLastUpdated(payload.lastModified)} | Source: ${payload.url}`;
+    if (dom.logoTime) {
+      dom.logoTime.textContent = formatDockVersion(payload.dataVersion, payload.lastModified);
+    }
     setStatus("Live");
 
     scheduleRender();
@@ -615,7 +649,9 @@ function initMap() {
 }
 
 function bootstrap() {
-  startLogoClock();
+  if (dom.logoTime) {
+    dom.logoTime.textContent = "loading...";
+  }
   buildLegend();
   renderSelectedPanel(null);
   setupMobilePanels();

@@ -50,25 +50,41 @@ function setStatus(message, mode = "normal") {
   dom.status.classList.toggle("is-error", mode === "error");
 }
 
-function formatDockTime(now = new Date()) {
-  return now.toLocaleString("zh-TW", {
+function formatLocaleTimestamp(rawValue) {
+  if (!rawValue) {
+    return "";
+  }
+
+  const value = rawValue instanceof Date ? rawValue : new Date(rawValue);
+  if (Number.isNaN(value.valueOf())) {
+    return "";
+  }
+
+  return value.toLocaleString("zh-TW", {
     hour12: false,
     timeZone: "Asia/Taipei",
     timeZoneName: "short"
   });
 }
 
-function startLogoClock() {
-  if (!dom.logoTime) {
-    return;
+function formatDockVersion(dataVersion, lastModified) {
+  const versionText = String(dataVersion ?? "").trim();
+  if (versionText) {
+    if (/^\d{10}$/.test(versionText)) {
+      const formatted = formatLocaleTimestamp(Number(versionText) * 1000);
+      return formatted || versionText;
+    }
+
+    if (/^\d{13}$/.test(versionText)) {
+      const formatted = formatLocaleTimestamp(Number(versionText));
+      return formatted || versionText;
+    }
+
+    const formatted = formatLocaleTimestamp(versionText);
+    return formatted || versionText;
   }
 
-  const refresh = () => {
-    dom.logoTime.textContent = formatDockTime();
-  };
-
-  refresh();
-  window.setInterval(refresh, 1000);
+  return formatLocaleTimestamp(lastModified) || "unknown";
 }
 
 function groupSensorTypes(sensors) {
@@ -93,7 +109,10 @@ function groupSensorTypes(sensors) {
 
 async function bootstrap() {
   const config = await loadAppConfig("/config.json");
-  startLogoClock();
+
+  if (dom.logoTime) {
+    dom.logoTime.textContent = "loading...";
+  }
 
   const map = createMap("map", config.map);
   const selectedPanel = createSelectedPanel(dom.selectedPanel);
@@ -176,6 +195,9 @@ async function bootstrap() {
       }
 
       dom.lastUpdated.textContent = formatLastUpdated(payload.lastModified);
+      if (dom.logoTime) {
+        dom.logoTime.textContent = formatDockVersion(payload.dataVersion, payload.lastModified);
+      }
       setStatus("Live", "normal");
       return true;
     } catch (error) {

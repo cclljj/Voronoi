@@ -87,18 +87,33 @@ function normalizeUrl(url) {
   return url.startsWith("/") ? url : `/${url}`;
 }
 
-export function parseSensorsCsv(csvText, options = {}) {
+function parseCsvPayload(csvText, options = {}) {
   const warn = options.warn ?? console.warn;
   const rows = csvParse(csvText);
 
   if (!validateHeaders(rows.columns ?? [], warn)) {
-    return [];
+    return {
+      sensors: [],
+      dataVersion: ""
+    };
   }
 
+  const versionColumn = (rows.columns ?? []).find(
+    (column) => String(column).trim().toLowerCase() === "version"
+  );
+
   const sensors = [];
+  let dataVersion = "";
 
   rows.forEach((row, index) => {
     const line = index + 2;
+
+    if (!dataVersion && versionColumn) {
+      const candidate = String(row[versionColumn] ?? "").trim();
+      if (candidate) {
+        dataVersion = candidate;
+      }
+    }
 
     const latitude = Number.parseFloat(row.latitude);
     const longitude = Number.parseFloat(row.longitude);
@@ -141,7 +156,14 @@ export function parseSensorsCsv(csvText, options = {}) {
     });
   });
 
-  return sensors;
+  return {
+    sensors,
+    dataVersion
+  };
+}
+
+export function parseSensorsCsv(csvText, options = {}) {
+  return parseCsvPayload(csvText, options).sensors;
 }
 
 export async function fetchSensorsCsv(url, options = {}) {
@@ -157,10 +179,11 @@ export async function fetchSensorsCsv(url, options = {}) {
   }
 
   const csvText = await response.text();
-  const sensors = parseSensorsCsv(csvText, { warn });
+  const payload = parseCsvPayload(csvText, { warn });
 
   return {
-    sensors,
+    sensors: payload.sensors,
+    dataVersion: payload.dataVersion,
     lastModified: response.headers.get("Last-Modified")
   };
 }
