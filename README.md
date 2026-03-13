@@ -1,74 +1,105 @@
 # Voronoi
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Vite](https://img.shields.io/badge/Vite-8.0.0-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
+[![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?logo=leaflet&logoColor=white)](https://leafletjs.com/)
+[![D3](https://img.shields.io/badge/D3-7.9.0-F9A03C?logo=d3.js&logoColor=white)](https://d3js.org/)
+[![Deploy](https://img.shields.io/badge/Deploy-Static%20Hosting-0ea5e9)](#deployment)
+[![Demo Site](https://img.shields.io/badge/Demo%20Site-Online-22c55e)](https://pm25.lass-net.org/GIS/Voronoi/)
+
 Modernized PM2.5 Voronoi map for LASS/Open PM2.5 data.
 
-This project restores and upgrades a legacy visualization stack while keeping the original data workflow (CSV schema + sensor identity links) and static-site deployment model.
+This repository upgrades a legacy visualization stack to a modern, maintainable frontend while preserving the original CSV workflow and static deployment model.
 
-## Highlights
+## Live Site
 
-- Modern frontend stack
-  - Leaflet `1.9.4`
-  - D3 `7.9.0`
-  - `d3-delaunay 6.0.4`
-  - Vite `8.0.0`
-- Restored basemap with OpenStreetMap tiles
-- Voronoi rendering migrated from legacy `d3.geom.voronoi` to `Delaunay.voronoi`
-- Live polling without full-page refresh (with exponential backoff)
-- Sensor selection panel includes source and `device_id`
-- Keyboard-friendly interactions and mobile-friendly floating controls
-- Includes a standalone `plain-js/` build that can run without npm
+- Production: [https://pm25.lass-net.org/GIS/Voronoi/](https://pm25.lass-net.org/GIS/Voronoi/)
+- Demo Site: [https://pm25.lass-net.org/GIS/Voronoi/](https://pm25.lass-net.org/GIS/Voronoi/)
+
+## Key Features
+
+- Modern stack with fixed versions for reproducible builds
+- Basemap restored using OpenStreetMap standard tiles
+- Voronoi engine migrated from `d3.geom.voronoi()` to `d3-delaunay`
+- Incremental polling updates (no full-page reload)
+- Sensor detail panel includes source name and `device_id`
+- Responsive, map-first UI for desktop and mobile
+- Standalone `plain-js/` variant for no-build static hosting
+
+## Tech Stack
+
+- Runtime: Node.js `22.x LTS`
+- Build Tool: Vite `8.0.0`
+- Map: Leaflet `1.9.4`
+- Visualization: D3 `7.9.0`, `d3-delaunay 6.0.4`
+- Testing: Vitest `3.2.4`, Playwright `1.58.2`
 
 ## Repository Structure
 
 ```text
 .
-├── src/                  # Vite app source
-│   ├── data/             # Config + CSV parsing + fetch
-│   ├── map/              # Leaflet map bootstrap
-│   ├── ui/               # Controls/legend/selected panel
-│   ├── voronoi/          # Delaunay/Voronoi rendering logic
-│   └── styles/           # Application styles
-├── public/               # Static assets/config used by Vite
-│   ├── config.json
-│   ├── data/data.csv
-│   └── images/
-├── tests/                # Unit + Playwright E2E tests
-├── plain-js/             # Standalone static JS variant (no npm required)
-└── dist/                 # Production build output (generated)
+├── src/
+│   ├── data/              # CSV parsing, validation, polling
+│   ├── map/               # Leaflet map bootstrap
+│   ├── ui/                # controls/legend/selected panel
+│   ├── voronoi/           # Delaunay/Voronoi rendering
+│   └── styles/            # app styles
+├── public/
+│   ├── config.json        # runtime config
+│   ├── data/data.csv      # sample/local data source
+│   └── images/            # logos/assets
+├── plain-js/              # no-npm static version
+├── tests/                 # unit + e2e tests
+└── dist/                  # production output (generated)
 ```
 
-## Requirements
+## Getting Started (Vite)
 
-- Node.js `22+` (or newer compatible runtime)
+### Prerequisites
+
+- Node.js `22+`
 - npm `10+`
 
-## Quick Start (Vite)
+### Install and Run
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite (typically `http://localhost:5173`).
+Open the local URL shown in terminal (default: `http://localhost:5173`).
 
-## Build for Deployment
+## Build and Preview
 
 ```bash
 npm run build
+npm run preview
 ```
 
-Deploy the generated `dist/` folder to any static web server (Nginx/Apache/CDN static hosting).
+Production assets are generated in `dist/`.
+
+## Standalone Mode (No npm)
+
+If you need direct static hosting without Node/npm, use:
+
+- `plain-js/index.html`
+
+For details, see:
+
+- `plain-js/README.md`
 
 ## Runtime Configuration
 
 Edit `public/config.json`:
 
-- `dataUrl`: currently set to original source URL
-  - `https://pm25.lass-net.org/GIS/voronoi/data/data.csv`
+- `dataUrl`: CSV endpoint URL
 - `refreshIntervalMs`: normal polling interval
 - `polling.maxIntervalMs`: max retry interval on failures
-- `map.tileUrl`, `map.attribution`, `map.maxZoom`
-- `ui.initialTypes`: default checked sensor groups on first load
+- `map.tileUrl`: tile URL template
+- `map.attribution`: map attribution text
+- `map.maxZoom`: max zoom level
+- `ui.initialTypes`: default selected sensor types
 
 ## Data Contract
 
@@ -80,33 +111,38 @@ id,latitude,longitude,name,type,pm25,color,url,label
 
 Validation behavior:
 
-- Rows with invalid/missing required fields are skipped
-- Warnings are emitted to browser console
-- `device_id` is parsed from `url` query parameter `var-device_id`
+- invalid rows are skipped
+- warnings are logged in browser console
+- `device_id` is extracted from `url` query parameter `var-device_id`
 
-## Scripts
+## Available Scripts
 
-- `npm run dev` - start local dev server
-- `npm run build` - create production bundle in `dist/`
-- `npm run preview` - preview built bundle
-- `npm run test` - run unit tests (Vitest)
-- `npm run test:e2e` - run Playwright end-to-end tests
+- `npm run dev`: start development server
+- `npm run build`: create production bundle
+- `npm run preview`: preview built bundle
+- `npm run test`: run unit tests (Vitest)
+- `npm run test:e2e`: run end-to-end tests (Playwright)
 
-## Standalone Mode (No npm)
+## Deployment
 
-If you need a static version without tooling, use `plain-js/`.
+This project is designed for static hosting.
 
-See: `plain-js/README.md`
+1. Build assets with `npm run build`
+2. Upload `dist/` to your web root (Nginx/Apache/CDN)
+3. Verify map tiles, Voronoi rendering, filter controls, and detail panel
 
-## Deployment Notes
+Recommended rollout strategy:
 
-Recommended rollout:
+1. Deploy to stage path (for example `/GIS/voronoi-v2/`)
+2. Validate on real data
+3. Switch production route to `/GIS/Voronoi/`
+4. Keep previous static bundle for quick rollback
 
-1. Deploy new build to stage path (e.g. `/GIS/voronoi-v2/`)
-2. Verify map rendering, filter interactions, and sensor detail panel
-3. Switch production route to new build (`/GIS/voronoi/`)
-4. Keep previous static bundle for immediate rollback
+## Compatibility
+
+- Chrome / Edge / Firefox / Safari latest two major versions
+- No IE or legacy Android WebView support
 
 ## License
 
-MIT. See `LICENSE`.
+MIT License. See [LICENSE](./LICENSE).
