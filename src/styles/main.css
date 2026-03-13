@@ -100,20 +100,28 @@ body {
   gap: 8px;
 }
 
-.logo-row {
-  margin-top: 10px;
+.logo-dock {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 1000;
   display: flex;
-  align-items: center;
-  gap: 8px;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 6px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
-.logo-row img {
-  height: 28px;
+.logo-dock img {
+  height: 30px;
   width: auto;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.92);
-  padding: 2px 4px;
+  display: block;
+  object-fit: contain;
 }
+
 
 .control-row {
   display: grid;
@@ -313,6 +321,18 @@ body {
     right: auto;
     left: 10px;
     bottom: 132px;
+  }
+
+  .logo-dock {
+    right: 10px;
+    bottom: 92px;
+    gap: 8px;
+    padding: 5px 6px;
+    border-radius: 10px;
+  }
+
+  .logo-dock img {
+    height: 24px;
   }
 
   .selected-panel {
