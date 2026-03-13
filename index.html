@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PM2.5 Voronoi Map</title>
+    <meta property="og:title" content="LASS: Voronoi Diagram of PM2.5 Stations" />
+    <meta property="og:description" content="LASS: Voronoi Diagram of PM2.5 Stations" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pm25.lass-net.org/GIS/voronoi/" />
+    <meta property="og:site_name" content="LASS: Voronoi Diagram of PM2.5 Stations" />
+    <link rel="icon" href="/LASS.ico" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="map" aria-label="PM2.5 Voronoi map"></div>
+
+      <aside id="left-panel" class="panel" aria-label="Data source filters">
+        <div class="panel-header-row">
+          <h2 class="panel-title">Data Source</h2>
+          <span id="sensor-count" class="panel-badge">0</span>
+        </div>
+        <p id="last-updated" class="panel-meta">Loading...</p>
+        <div id="controls" class="controls" role="group" aria-label="Sensor type filters"></div>
+        <div class="logo-row" aria-hidden="true">
+          <img src="/images/AS-logo.png" alt="" />
+          <img src="/images/LASS-logo.png" alt="" />
+          <img src="/images/GHRepo-logo.png" alt="" />
+        </div>
+      </aside>
+
+      <aside id="legend-panel" class="panel panel-collapsible" aria-label="PM2.5 legend">
+        <button id="legend-toggle" class="panel-toggle" type="button" aria-expanded="true" aria-controls="legend-content">
+          Legend
+        </button>
+        <div id="legend-content"></div>
+      </aside>
+
+      <section id="selected-panel" class="selected-panel" aria-live="polite"></section>
+
+      <button id="mobile-panel-toggle" class="mobile-panel-toggle" type="button" aria-expanded="false" aria-controls="left-panel legend-panel">
+        Filters & Legend
+      </button>
+
+      <div id="status" class="status-pill" aria-live="polite">Initializing...</div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

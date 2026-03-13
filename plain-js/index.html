@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PM2.5 Voronoi Map (Plain JS)</title>
+    <meta property="og:title" content="LASS: Voronoi Diagram of PM2.5 Stations" />
+    <meta property="og:description" content="LASS: Voronoi Diagram of PM2.5 Stations" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="map" aria-label="PM2.5 Voronoi map"></div>
+
+      <aside id="left-panel" class="panel" aria-label="Data source filters">
+        <div class="panel-header-row">
+          <h2 class="panel-title">Data Source</h2>
+          <span id="sensor-count" class="panel-badge">0</span>
+        </div>
+        <p id="last-updated" class="panel-meta">Loading...</p>
+        <div id="controls" class="controls" role="group" aria-label="Sensor type filters"></div>
+      </aside>
+
+      <aside id="legend-panel" class="panel panel-collapsible" aria-label="PM2.5 legend">
+        <button id="legend-toggle" class="panel-toggle" type="button" aria-expanded="true" aria-controls="legend-content">Legend</button>
+        <div id="legend-content"></div>
+      </aside>
+
+      <section id="selected-panel" class="selected-panel" aria-live="polite"></section>
+
+      <button id="mobile-panel-toggle" class="mobile-panel-toggle" type="button" aria-expanded="false">Filters & Legend</button>
+
+      <div id="status" class="status-pill" aria-live="polite">Initializing...</div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

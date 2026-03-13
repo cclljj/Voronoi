@@ -1,0 +1,567 @@
+id,latitude,longitude,name,type,pm25,color,url,label
+1,24.161,120.732,明日,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C2D6,&starf;&starf;&starf;&starf;&starf;
+2,24.866,120.986,AirBox-NDMC-21,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C2CE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+3,24.838,121.024,AirBox-NDMC-25,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C2BE,&starf;&starf;&starf;&starf;&starf;
+4,23.89,120.359,THU_USR_38(2019),AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C28C,&starf;&starf;&starf;&starf;&starf;
+5,24.183,120.589,THU_USR_45(2019),AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C288,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+6,23.861,120.429,THU_USR_33(2019),AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C278,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+7,23.896,120.328,THU_USR_34(2019),AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C276,&starf;&starf;&starf;&starf;&starf;
+8,25.05,121.556,Peter_Taipei_Home,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C194,&starf;&star;&star;&star;&star;
+9,24.266,120.785,AirBox-NDMC-16,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C186,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+10,24.148,120.669,taichung171,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C176,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+11,25.149,121.523,EdiGreenAirBox2,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70520,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+12,25.149,121.523,臺北市泉源實驗國民小學2樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7051E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+13,23.963,120.685,虎山國小01,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F704F4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+14,23.122,120.392,二溪國小文化國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F704E0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+15,23.866,120.585,stes01,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F704DC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+16,23.122,120.392,二溪國小佈告欄,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F704D2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+17,25.095,121.495,cc00794,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F704BE,&starf;&starf;&starf;&starf;&starf;
+18,22.687,120.314,blue OR indoor,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F704B4,&star;&star;&star;&star;&star;
+19,22.629,120.318,YD165,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F704A2,&star;&star;&star;&star;&star;
+20,22.471,120.46,興東里,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7044E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+21,22.963,120.325,關廟國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70420,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+22,22.337,120.368,屏東縣琉球國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70418,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+23,21.992,120.747,恆春工商玄關,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F703F4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+24,24.026,120.921,太平國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7039C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+25,23.153,120.288,台南市善糖國小空氣盒子,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7036C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+26,24.18,120.622,2463,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70310,&starf;&starf;&starf;&starf;&starf;
+27,25.119,121.515,立農街二段289巷,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F702DC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+28,24.812,120.962,Astra,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F702C8,&star;&star;&star;&star;&star;
+29,25.108,121.559,中社路一段36巷3號1樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F701C4,&starf;&starf;&starf;&starf;&starf;
+30,25.015,121.431,新樹路258巷1號A,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F701C0,&starf;&star;&star;&star;&star;
+31,24.21,120.475,南堤路,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F701BC,&starf;&starf;&starf;&star;&star;
+32,24.22,120.477,龍昌路A,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F701AA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+33,24.218,120.488,龍昌路B,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F701A4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+34,24.196,120.716,華盛頓小學白宮辦公室,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70192,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+35,24.197,120.716,華盛頓小學國際藝文大樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70190,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+36,22.534,120.54,光春國中,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70170,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+37,23.492,121.39,瑞美國小pm2.5,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70138,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+38,23.167,120.177,國立北門高中_傳達室,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70110,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+39,22.465,120.455,東港高中實踐樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F700FC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+40,23.475,120.471,蘭潭國小2,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F700D4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+41,23.912,120.675,ntjh,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70088,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+42,23.291,120.271,太子國中,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70082,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+43,24.845,121.791,北門坑近雪隧,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7005E,&starf;&starf;&starf;&starf;&starf;
+44,25.039,121.589,myPM2.5-h,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F70024,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+45,23.751,120.748,永隆廚具,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FFF8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+46,23.767,120.737,初鄉國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FFF4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+47,23.886,120.587,來ㄎ芭樂吧,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FFEC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+48,23.75,120.777,永隆社區,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FFDC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+49,23.744,120.757,鹿谷游泳池,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FFD0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+50,23.737,120.76,茂騰電腦,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FFC6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+51,22.619,120.299,CET.indoor,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FFAC,&star;&star;&star;&star;&star;
+52,25.065,121.527,新祿公園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FF60,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+53,23.758,120.675,hsinrong,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FF50,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+54,24.632,121.789,dongshenoffice,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FF40,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+55,24.632,121.789,冬小 C-2,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FF38,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+56,24.973,121.55,jchiou寶興,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FF28,&starf;&starf;&starf;&starf;&star;
+57,24.946,121.5,僑信路109、120巷口,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FF20,&starf;&starf;&starf;&starf;&starf;
+58,24.133,120.642,Wang,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FF1C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+59,25.07,121.492,Ru ,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FF12,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+60,23.891,120.713,千秋美術教室,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FEFE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+61,23.428,120.512,Dyps_Airbox1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FEFA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+62,25.024,121.513,牯嶺街,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FEF6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+63,23.381,120.53,沄水國小北二,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FECA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+64,24.027,120.492,明正1號,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FEC8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+65,22.622,120.328,高雄私立三信家商,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FEC2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+66,25.137,121.484,FXing,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FEC0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+67,23.686,120.388,雲林縣土庫鎮土庫國中,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FEBA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+68,23.056,120.41,左鎮國中空氣品質監測,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FEAE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+69,23.381,120.53,沄水國小 東棟教室,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FE94,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+70,25.061,121.616,日升月恆,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FE72,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+71,24.082,120.54,joygold,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F6FE6A,&starf;&starf;&starf;&starf;&starf;
+72,25.03,121.527,Ktest,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F16700,&starf;&starf;&starf;&starf;&star;
+73,25.0624524,121.5823205,f2,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F166F2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+74,25.03,121.527,cb00456,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED07EE,&starf;&starf;&starf;&star;&star;
+75,23.914,120.541,fdps1F,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED07D2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+76,24.857,120.992,CB00492,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED07C4,&star;&star;&star;&star;&star;
+77,24.165,120.726,太和東街_陽台抽煙的去X,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED073E,&starf;&starf;&starf;&star;&star;
+78,22.982,120.29,空氣盒子PM2.5,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED06F8,&star;&star;&star;&star;&star;
+79,25.048,121.45,Chris,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED06A6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+80,25.029,121.479,AI1001WV285CB00224,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED0688,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+81,25.025,121.523,台大醫院工,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED0676,&starf;&star;&star;&star;&star;
+82,25.036,121.443,世杰,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED065E,&starf;&starf;&starf;&starf;&starf;
+83,24.133,120.684,臺中市東區臺中家商,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED064E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+84,25.034,121.541,師大附中,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED05BC,&starf;&starf;&starf;&starf;&starf;
+85,25.044,121.515,台大醫院秘4,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED051E,&starf;&starf;&starf;&starf;&starf;
+86,25.06,121.53,台大醫院秘3,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED051A,&starf;&starf;&starf;&starf;&star;
+87,25.059,121.461,林均泓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED04EA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+88,25.003,121.5,cb00165,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED0458,&starf;&starf;&starf;&starf;&starf;
+89,24.435,118.314,金門高中教務處,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED0424,&starf;&starf;&starf;&starf;&starf;
+90,24.895,120.998,東陽魚池,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF964,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+91,24.048,120.436,街尾青雲,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF95C,&starf;&starf;&starf;&starf;&starf;
+92,22.611,120.323,Sam house,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF938,&star;&star;&star;&star;&star;
+93,24.08,120.556,THU_USR_16(2019),AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF912,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+94,23.119,120.306,LM_目加溜灣,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF90C,&starf;&starf;&starf;&starf;&starf;
+95,22.626,120.266,NSYSU MEM,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF908,&starf;&starf;&starf;&star;&star;
+96,24.191,120.61,Todd,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF8F2,&starf;&starf;&starf;&star;&star;
+97,24.998,121.552,Steph Xinhai,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF8E6,&starf;&starf;&starf;&starf;&starf;
+98,25.008,121.487,LiDeStreetLANE98NO66,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF8DA,&starf;&star;&star;&star;&star;
+99,25.119,121.471,關渡自然公園-自然中心,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF8D2,&starf;&starf;&starf;&starf;&starf;
+100,24.948,121.379,名人尊品,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF898,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+101,24.211,120.609,新科路,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF866,&starf;&starf;&starf;&starf;&starf;
+102,22.66,120.323,明誠一路真愛大樓10F陽台(室外),Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF83E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+103,24.308,120.73,7-11,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF822,&starf;&starf;&starf;&starf;&starf;
+104,24.135,120.673,AirB1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF818,&star;&star;&star;&star;&star;
+105,22.638,120.338,九如一路186巷,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF816,&star;&star;&star;&star;&star;
+106,25.089,121.459,Bluesky ,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF814,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+107,24.073,120.543,v3,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF808,&starf;&starf;&starf;&star;&star;
+108,23.489,120.458,terry,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF7F6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+109,24.187,120.68,VY AIR GUARD,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF7E6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+110,24.791,121.01,gostar330,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF77A,&starf;&starf;&starf;&starf;&star;
+111,23.01,120.222,日光行舘第二期,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF740,&star;&star;&star;&star;&star;
+112,24.299,120.577,THU_USR_06(2019),AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF704,&starf;&starf;&starf;&starf;&starf;
+113,22.626,120.266,NSYSUCHEM,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF6DE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+114,22.645,120.344,陽明照相館_室內,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF6CC,&star;&star;&star;&star;&star;
+115,22.649,120.318,Peter Huang,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF6CA,&starf;&star;&star;&star;&star;
+116,24.249,120.719,PigHouse,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF696,&starf;&star;&star;&star;&star;
+117,22.962,120.279,歸仁區民生八街,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF68E,&star;&star;&star;&star;&star;
+118,25.096,121.738,LeoH,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF68C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+119,24.159,120.648,epb綜計,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF674,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+120,24.35,120.619,新政仁愛,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF656,&starf;&starf;&starf;&starf;&star;
+121,22.682,120.32,jjjjjjjjjjjjjjjj時代爵邸,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF61A,&starf;&starf;&star;&star;&star;
+122,22.64,120.286,中庸街223巷,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF600,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+123,22.987,120.16,yuzhi,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF5FE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+124,22.61,120.344,鳳山區新康街高21公尺（陽台）,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF5CE,&star;&star;&star;&star;&star;
+125,24.195,120.686,Peterpen,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38EBF5AE,&star;&star;&star;&star;&star;
+126,25.057,121.432,airbox,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69E6C,&starf;&starf;&starf;&starf;&starf;
+127,24.157,120.647,文心經典,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69E54,&starf;&starf;&star;&star;&star;
+128,24.1036046,120.6223805,tchome2f0912,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69E1E,&starf;&starf;&starf;&starf;&starf;
+129,23.753,120.432,雲林縣西螺鎮九隆,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69DB4,&starf;&starf;&starf;&starf;&starf;
+130,24.135,120.637,EDIMAX-CTP,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69D62,&starf;&starf;&starf;&starf;&starf;
+131,25.014,121.431,新樹路258巷1號1樓,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69D54,&starf;&starf;&starf;&starf;&starf;
+132,25.045,121.613,中研市場,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69CF0,&starf;&starf;&starf;&star;&star;
+133,25.083,121.592,NeiHu357,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69C26,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+134,23.5247323,120.5966207,緞繻村小木屋,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69BE4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+135,23.5594487,120.422342,運動公園166號,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69B4A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+136,24.787,121.025,星河麗,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69B14,&starf;&star;&star;&star;&star;
+137,25.0060883,121.50181,RossiMao,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E69B12,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+138,23.594,120.452,禾康社區,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E2B846,&starf;&starf;&starf;&starf;&starf;
+139,25.106,121.732,KLSH,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E2B842,&starf;&starf;&starf;&starf;&starf;
+140,22.609901,120.311882,台鋁新村,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E2B778,&star;&star;&star;&star;&star;
+141,24.161076,120.6993637,Taichung 150,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E2B714,&starf;&starf;&starf;&starf;&star;
+142,23.473,120.422,嘉義榴槤,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E2B6E8,&star;&star;&star;&star;&star;
+143,23.989,120.687,Nantou10,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E2B652,&starf;&starf;&starf;&starf;&starf;
+144,22.469781,120.463523,Airr,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38E2B590,&star;&star;&star;&star;&star;
+145,25.044,121.518,台大醫院12,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B05436,&starf;&starf;&starf;&starf;&starf;
+146,25.041,121.517,台大醫院6,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B05430,&starf;&starf;&starf;&starf;&starf;
+147,24.958,121.497,4樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B0526A,&star;&star;&star;&star;&star;
+148,25.041,121.518,台大醫院4,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B05260,&starf;&starf;&starf;&starf;&starf;
+149,25.04,121.517,台大醫院5,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B05216,&starf;&starf;&starf;&starf;&starf;
+150,23.598,120.458,信義街,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B051FA,&starf;&starf;&starf;&starf;&starf;
+151,24.268536,120.537165,遠雄之星6,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B051D4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+152,25.041,121.519,台大醫院1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B0511C,&starf;&starf;&starf;&starf;&star;
+153,24.787,121.021,內灣峴,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B050C2,&starf;&starf;&starf;&starf;&star;
+154,25.041,121.52,台大醫院3,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38B05074,&starf;&starf;&star;&star;&star;
+155,24.1034456,120.6225437,home3f,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38AF4758,&starf;&starf;&starf;&star;&star;
+156,25.014,121.432,新樹路258巷1號B,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA3895C406,&starf;&starf;&star;&star;&star;
+157,25.062361,121.582494,TS6_23_V4,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=201905151623,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+158,24.276622,120.507842,中油工地-hn,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC45E9F4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+159,25.0656425,121.4781012,新北市三重區二重國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC45E9E4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+160,24.053282,120.628162,Airbox001,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC45E9D8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+161,24.2223667,120.4774417,工信工務所,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7D6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+162,24.1919641,120.6143265,國安二期#2,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7D2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+163,24.2218993,120.4782296,工信工區01,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7D0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+164,25.036076,121.514399,臺北市立大學 公誠樓體育場（博愛）,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7CA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+165,24.1918003,120.613914,國安2期#3,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7C4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+166,25.0036301,121.4625429,PM2.5,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7C2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+167,25.11469,121.537126,臺北市大學 3F詩欣館（天母）,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7C0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+168,25.036477,121.513115,臺北市立大學 B1F餐廳（博愛）,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7BE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+169,25.116032,121.536537,臺北市立大學 1F鴻坦樓警衛室（天母）,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7BC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+170,23.4944525,120.4675318,#65,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7BA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+171,25.036002,121.513794,臺北市立大學 行政大樓1F穿堂（博愛）,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC44E7B8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+172,24.190988,120.658179,鑫港尾社會住宅,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C40,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+173,24.380145,120.63226,通用瀝青洗車台,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C3E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+174,24.226628,120.513463,民峰梧棲廠出入口,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C2E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+175,24.246465,120.50706,德隆40,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C24,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+176,22.6344617,120.3234741,道明設備組,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C1C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+177,24.22066,120.4840767,榮金營造工程-龍昌橋改建工程,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C1A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+178,24.828742,120.998365,Edimax-AI100,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C0A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+179,25.179845,121.439987,新北市淡水區新興國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C08,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+180,24.380239,120.632086,大安瀝青進料台,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C04,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+181,25.0307073,121.4727026,08BEAC400C02,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C02,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+182,25.0306615,121.4720145,08BEAC400C00,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400C00,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+183,24.226105,120.703225,丹源齊稙,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400BFE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+184,24.160783,120.646356,Book-11,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400BFC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+185,24.219089,120.659703,民峰大雅廠下風處,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC400BF2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+186,24.193933,120.696073,頭張路二段76-4,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB7B4,&starf;&starf;&starf;&starf;&starf;
+187,24.210323,120.70723,潭陽里守望相助隊,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB7AE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+188,24.217163,120.713699,嘉仁社區活動中心 ,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB7AA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+189,24.166004,120.691201,崇興路一段38,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB790,&star;&star;&star;&star;&star;
+190,24.138029,120.725671,東村宮,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB78A,&starf;&starf;&starf;&star;&star;
+191,24.175564,120.676384,山西路二段233,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB782,&starf;&starf;&starf;&star;&star;
+192,24.192055,120.682729,昌平路２段５１,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB780,&starf;&starf;&starf;&star;&star;
+193,22.6552115,120.3198342,銀杉街口,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB77E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+194,24.136584,120.643393,京展街222,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB77C,&star;&star;&star;&star;&star;
+195,24.1733587,120.7229129,臺中市私立聖彼得幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB76C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+196,24.321036,120.701716,慈賢宮樓下,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB766,&starf;&starf;&starf;&starf;&starf;
+197,24.0680113,120.7147175,朝陽科技大學教學大樓T1-802,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB74C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+198,24.0687728,120.7132573,朝陽科技大學管理大樓T2-415,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB74A,&starf;&starf;&starf;&starf;&starf;
+199,24.23458,120.69509,三角里社區活動中心,Malfunction,2,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB732,&starf;&starf;&starf;&star;&star;
+200,24.294854,120.701461,舊社里活動中心,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB72C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+201,22.629613,120.328721,O8airbox,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB722,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+202,22.6295606,120.3286617,O8airbox1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB71C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+203,22.995032,120.226272,台南社區大學,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB71A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+204,24.1947812,120.7028874,牙齒的好朋友牙醫診所(室外 高度11M),AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB704,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+205,24.161376,120.726541,OPTIMISTIC-14L,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB6FC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+206,24.189358,120.663688,Brad home,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB6FA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+207,24.170646,120.688265,北平路4段46-8,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB6E0,&starf;&starf;&starf;&starf;&starf;
+208,24.15584,120.674313,英才路219,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB6D6,&starf;&starf;&starf;&starf;&starf;
+209,24.14797,120.633416,向上路二段201號,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB6C4,&starf;&starf;&starf;&star;&star;
+210,24.28454,120.6658533,豐洲堤防（內）,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB6BA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+211,24.109996,120.7002437,立新國小,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB6B6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+212,25.10237,121.554873,Zhishan 002,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB6B0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+213,23.9589245,120.5849887,江厝,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB69C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+214,25.034542,121.53339,Capriccioso,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB69A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+215,24.126652,120.672745,Ping,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB68E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+216,24.146419,120.615105,文山圖書館,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB67C,&starf;&starf;&starf;&star;&star;
+217,24.142686,120.724178,大源二路17,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB678,&starf;&starf;&starf;&star;&star;
+218,24.123852,120.716122,太平19街,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB672,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+219,24.314602,120.723145,MTB-污水廠,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB654,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+220,22.6465168,120.3421843,陽明照相館,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5FA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+221,25.122588,121.515991,admin,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5F6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+222,25.0404137,121.4447127,305,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5F4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+223,25.029622,121.495195,空氣盒子,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5F2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+224,24.156567,120.6913135,臺中市育仁小學,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5E8,&starf;&starf;&starf;&starf;&star;
+225,24.494274,120.788529,小樹的家,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5E0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+226,24.12585444,120.6207617,統發  後,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5D4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+227,24.2521741,120.830609,臺中市私立東勢芝麻街幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5CE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+228,24.168745,120.691081,天津路四段212,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5C4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+229,24.0914797,120.72333,SUNCUE Co.  LTD.,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5BE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+230,24.2363148,120.6664256,臺中市上楓非營利幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5B4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+231,24.322272,120.680266,2,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5B2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+232,24.322563,120.680749,1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB5AC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+233,22.6551829,120.3185607,銀杉街,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB586,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+234,23.9600893,120.4834703,興學街,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB57A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+235,24.1415662,120.6659675,臺中市立圖書館大墩分館,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB574,&starf;&starf;&starf;&starf;&star;
+236,25.0315072,121.4464763,paddy,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB542,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+237,24.821717,120.970796,hylabB524,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB524,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+238,25.037508,121.499809,龍山寺拜亭 1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB4F6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+239,24.83433,121.060804,西南側,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB4EA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+240,24.82508,120.975846,hylabB4CA,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB4CA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+241,24.801446,121.03804,hylabB4C8,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB4C8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+242,24.322206,120.680826,4,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB4A2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+243,24.32308,120.681245,3,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB49A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+244,24.050719,120.552222,HiltonParkSt2,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB496,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+245,22.9739683,120.221555,AI92,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB492,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+246,25.0310896,121.3898085,長庚科技大學,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB48A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+247,25.0831204,121.6368393,空氣嘟嘟,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB488,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+248,25.0726097,121.3774229,新北市立林口幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB486,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+249,25.111043,121.539536,迪菲循飛航科技,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB482,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+250,23.228619,120.354531,六甲忠孝街,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB480,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+251,25.03459,121.534177,Edchen,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB47E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+252,23.152922,120.289109,david-shanhua,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB47C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+253,24.211877,120.49102,港風開閉所2,AirBox,2,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB470,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+254,23.949340526489,120.89062222363,自在園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB468,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+255,25.0632217,121.5003168,小米盒子,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB460,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+256,24.178439,120.71503,軍福公園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB40C,&starf;&starf;&starf;&starf;&starf;
+257,24.151577,120.6169626,wen,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB406,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+258,24.1730847,120.6488211,臺中市立圖書館西屯分館,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB3DE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+259,24.117828,120.721021,太平三街59,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB3AE,&starf;&starf;&starf;&star;&star;
+260,24.1631754,120.6939698,臺中市臺中地區農會附設臺中市私立北屯幼兒園,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB382,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+261,24.1874528,120.6445117,逢甲大學福星校區,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB352,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+262,24.1785934,120.6495241,逢甲大學商學大樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB33C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+263,24.148377,120.659573,向上北路224巷,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB2E2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+264,24.152868,120.670608,民權路281,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB2DC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+265,24.1048578,120.6349634,臺中市明道中學明衡樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB2D2,&starf;&starf;&starf;&star;&star;
+266,24.1070637,120.6360478,臺中市明道中學明道樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB2CE,&star;&star;&star;&star;&star;
+267,25.0643806,121.5942559,ediT0g_b2,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB2B2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+268,22.6574402,120.3199959,301巷,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB2AE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+269,24.2351712,120.5108604,MPCT,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB25A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+270,22.649613,120.356082,USDPKR,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB24E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+271,24.8367254,121.2339777,7-11,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB24A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+272,25.0646514,121.594245,ediT0m_44,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB244,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+273,24.1258499,120.6203449,寶仁土石 後,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB23A,&star;&star;&star;&star;&star;
+274,24.18331564,120.7123834,強琳 前,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB234,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+275,24.126502,120.6653326,文林街20,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB20E,&starf;&starf;&starf;&starf;&starf;
+276,24.1127151,120.6733669,永隆里活動中心,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB1FA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+277,24.4012462,120.6405253,臺中市立大甲幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB1F6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+278,24.995264,121.469844,捷運萬大-中和-樹林線（第一期工程）CQ870區段標工程,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB1F4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+279,24.379496,120.585968,大安港路1178,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB1EA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+280,24.230957,120.555426,興安路51巷,AirBox,2,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB1C0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+281,24.1271803,120.681279,正義街236,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB1A0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+282,24.023167,120.6978695,中正路144巷14號,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB180,&starf;&starf;&starf;&starf;&starf;
+283,24.1553673,120.7201238,臺中市私立柏拉圖幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB170,&starf;&starf;&starf;&starf;&starf;
+284,24.1318114,120.6869531,臺中市私立德育幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB162,&starf;&starf;&starf;&starf;&star;
+285,24.1660398,120.5757991,臺中市私立明星幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB156,&starf;&starf;&starf;&starf;&star;
+286,24.0689743,120.7135582,朝陽科技大學圖書館5F5F,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB140,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+287,24.150014,120.71996,新坪公園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB13C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+288,24.109951,120.729973,光興路936,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB138,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+289,24.2431226,120.6770866,臺中市私立神岡三采幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB134,&starf;&starf;&starf;&starf;&star;
+290,24.2463131,120.7228268,臺中市私立美倫幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB124,&starf;&starf;&starf;&starf;&star;
+291,25.0644356,121.5940339,ediT3rd,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB114,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+292,25.064805,121.5943114,ediT1st_0c,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB10C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+293,24.18335666,120.7126183,強琳環保（2）,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0FE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+294,24.164348,120.538091,錢宏興業有限公司,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0FC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+295,22.720076847712,120.28870222386,Air_55,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0F6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+296,25.055789,121.461116,Andy’s Home,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0E8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+297,24.971844,121.532784,EDIMAX-Joe,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0E0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+298,24.2164868,120.5120254,業信企業有限公司,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0CC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+299,24.3000829,120.6303823,大信砂石股份有限公司,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0C4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+300,24.1022002,120.6998524,臺中市大里非營利幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0BA,&starf;&starf;&starf;&star;&star;
+301,24.1057535,120.6912266,臺中市立人高中,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB0B8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+302,24.0278529,120.6189342,airbox,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB096,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+303,24.926077,121.50241,Tigerhome,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB08C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+304,23.947905,120.571098,Life,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB084,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+305,25.1317569,121.4995855,myBox,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB082,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+306,24.1791915,120.6495799,逢甲大學資訊電機館,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB078,&starf;&starf;&starf;&starf;&starf;
+307,25.102285,121.554015,Zhishan 001,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB068,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+308,24.834959,121.06116,西側,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB05C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+309,25.036964,121.499983,龍山寺三川殿,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB04A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+310,24.2126904,120.4714884,空氣盒子南三門,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB038,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+311,24.307258,120.715429,福興路67-1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB030,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+312,24.183808,120.61727,福順路333,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB020,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+313,24.1684074,120.6914144,臺中市文昌非營利幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB012,&starf;&starf;&starf;&starf;&starf;
+314,24.1785356,120.6482987,逢甲大學圖書館,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB00C,&star;&star;&star;&star;&star;
+315,24.1788761,120.6465784,逢甲大學忠勤樓,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB008,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+316,24.1784351,120.6477895,逢甲大學行政二館,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AB006,&starf;&starf;&starf;&starf;&starf;
+317,24.204,120.521,龍津高中,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AA0B6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+318,24.201,120.624,逢甲,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AA08A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+319,24.192,120.61,20-5,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0AA082,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+320,25.06264,121.5827245,forkioskdata,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC07D3FA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+321,25.062476,121.582441,TS6_F6_V6,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC07D3F6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+322,24.811,120.978,hylab137A,AirBox,3,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC04137A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+323,24.805,120.962,hylab1372,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC041372,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+324,14.079,100.613,AIT-008,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC04135A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+325,14.079,100.612,AIT-004,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC041358,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+326,14.078,100.611,AIT-007,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC041352,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+327,24.813,120.979,hylab134E,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC04134E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+328,24.811,120.959,hylab134A,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC04134A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+329,24.315213,120.591058,高東里社區活動中心,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028DBE,&star;&star;&star;&star;&star;
+330,24.2702009,120.5791277,鰲峰環保,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028DB8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+331,25.067992,121.636612,Richard_Home,Malfunction,2,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028DB4,&starf;&starf;&starf;&starf;&starf;
+332,24.847981,121.167526,admin,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028DA6,&starf;&starf;&starf;&starf;&starf;
+333,25.05901,121.48941,Sanning,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028D5C,&starf;&starf;&starf;&starf;&starf;
+334,23.4836802,120.4847272,文雅巷內,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028D56,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+335,23.980493,120.573525,大村鄉美港村,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028D22,&starf;&starf;&starf;&star;&star;
+336,23.52,120.553,竹高G房,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028D14,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+337,23.45,120.446,湖子內健康路,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028D00,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+338,23.53075,120.465382,大丘園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028CFC,&starf;&starf;&starf;&starf;&star;
+339,24.057746,120.628362,SYS03,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028CD8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+340,23.98443102,120.5828261,dayungs,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C94,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+341,22.734,120.285,NUKAIR,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C78,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+342,23.966323007843,120.68140180011,airbox_fox_indoor,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C72,&starf;&starf;&starf;&starf;&star;
+343,24.381147,120.629594,民峰車徑出入口,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C6E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+344,24.263373,120.742425,翁子里活動中心,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C64,&starf;&starf;&starf;&starf;&star;
+345,24.258039,120.724706,隆豐街75巷,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C5E,&starf;&starf;&starf;&starf;&star;
+346,24.257706,120.826022,文化街115巷,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C5A,&starf;&starf;&starf;&starf;&starf;
+347,24.21818,120.838397,上城街108,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C56,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+348,24.2348538,120.8053494,臺中市私立愛苗幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C48,&starf;&starf;&starf;&star;&star;
+349,24.173645,120.694183,旅順路二段312,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C46,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+350,24.2697319,120.802929,臺中市私立幼欣幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C3C,&starf;&starf;&starf;&starf;&starf;
+351,24.5702873,120.816509,MLML6070,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C36,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+352,24.056791,120.628548,SYS01,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C0A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+353,24.056651,120.627479,SYS02,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C06,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+354,24.1193136,120.682357,臺中市明德中學附設幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028C00,&starf;&starf;&starf;&starf;&star;
+355,24.1207791,120.6844645,臺中市明德中學附小,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028BFE,&starf;&starf;&starf;&starf;&starf;
+356,24.2157114,120.7000917,臺中市潭秀非營利幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028BEE,&starf;&starf;&starf;&starf;&starf;
+357,24.2976076,120.6280827,泰田1,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028BD4,&starf;&starf;&starf;&starf;&starf;
+358,22.6684219,120.4958879,nptups2fgf,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028BCA,&star;&star;&star;&star;&star;
+359,24.164,120.722,珍珠的家,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B72,&starf;&star;&star;&star;&star;
+360,24.154023,120.688113,錦南街34-1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B58,&starf;&starf;&starf;&starf;&starf;
+361,24.153152,120.696028,自強一街24,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B54,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+362,24.150462,120.678596,太平路154,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B48,&starf;&starf;&starf;&star;&star;
+363,24.18255,120.695133,興安路二段412,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B46,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+364,24.0681926,120.7143361,朝陽科技大學教學大樓T1-607,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B36,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+365,24.0685235,120.7129843,朝陽科技大學管理大樓T2-407,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B2A,&star;&star;&star;&star;&star;
+366,22.6373935,120.3418293,WIS,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B24,&starf;&starf;&starf;&starf;&starf;
+367,24.0687342,120.713133,朝陽科技大學管理大樓T2-115,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028B1A,&star;&star;&star;&star;&star;
+368,24.246,120.506,德隆41,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028AEA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+369,24.156642,120.538629,大明五街69巷,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028ABA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+370,24.182,120.545,沙田路4段272,Malfunction,3,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028AB0,&starf;&starf;&starf;&star;&star;
+371,24.068,120.524,StevenChen,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A92,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+372,24.206,120.653,總茂環保1,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A5C,&starf;&starf;&starf;&starf;&star;
+373,24.778,121.365,iTribe振興部落(2020),AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A44,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+374,24.1808706,120.6615054,水湳日式1北,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A3C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+375,24.1807461,120.6596747,水湳日式2南,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A3A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+376,24.180772,120.660271,水湳日式2北,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A36,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+377,22.155644360961,113.55586166943,MO-MetSoc-07,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A30,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+378,24.1808604,120.6614683,水湳日式1南,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A2E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+379,25.021948,121.460445, 幸福32,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A16,&starf;&starf;&starf;&starf;&starf;
+380,23.525562,120.444798,溫莎小鎮,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028A12,&star;&star;&star;&star;&star;
+381,24.116,120.643,益郁實業有限公司,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0289E4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+382,24.2638598,120.7742031,陸江園-S1,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0289DE,&starf;&starf;&starf;&starf;&star;
+383,23.534576,120.405414,嘉義縣民雄鄉中央村嘉79,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0289C8,&starf;&starf;&starf;&starf;&starf;
+384,24.2972517,120.6279247,泰田2,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02895E,&starf;&starf;&star;&star;&star;
+385,25.006,121.097,應天宮,Malfunction,3,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02893E,&starf;&starf;&starf;&starf;&starf;
+386,22.327152,114.175564,MO-MetSoc-03,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0288FA,&starf;&starf;&starf;&starf;&starf;
+387,24.077,120.538,彰化聖王廟,Malfunction,3,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0288EE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+388,24.0767721,120.5398225,彰化關帝廟,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0288E8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+389,24.906876,121.142601,錫福宮,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0288DE,&starf;&starf;&starf;&starf;&starf;
+390,24.98369499,121.2503149,紫竹林,AirBox,3,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0288D6,&star;&star;&star;&star;&star;
+391,24.3160343,120.7045876,臺中市后里區一德幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02888E,&starf;&starf;&starf;&starf;&starf;
+392,24.1141514,120.669806,臺中市南區春天幼兒園,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02888A,&starf;&starf;&starf;&starf;&starf;
+393,24.1792424,120.6397601,臺中地區農會附設私立西屯幼兒園,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028884,&star;&star;&star;&star;&star;
+394,24.369275,120.62277,大甲車徑動動線路口,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028880,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+395,24.15473599,120.5826777,聯好環保股份有限公司行車路徑,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02886C,&starf;&starf;&starf;&starf;&star;
+396,24.219365,120.660077,民峰大雅廠出入口,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02886A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+397,22.97280883789,120.20893096923,臺南市南區大忠里-44,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028844,&starf;&starf;&starf;&starf;&starf;
+398,24.211918,120.490439,港風開閉所,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028830,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+399,24.277889,120.674903,麗榮實業有限公司,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028814,&starf;&starf;&starf;&starf;&starf;
+400,24.212,120.609,test,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0287FE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+401,23.4724591,120.6699411,嘉義縣竹崎鄉光華國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0287F8,&starf;&starf;&starf;&starf;&starf;
+402,25.062549,121.58242,TS6_E2_V3,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0287E2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+403,22.631,120.32,高雄市彩虹公園敘上景,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0287DE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+404,24.169793,120.65346,臺中市西屯區長安國小,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0287D8,&starf;&starf;&starf;&starf;&starf;
+405,24.13443,120.640482,臺中市南屯區萬和國中,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0287C6,&starf;&starf;&starf;&starf;&star;
+406,24.1113428,120.659393,AAA2,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02878E,&star;&star;&star;&star;&star;
+407,24.1225644,120.4992582,彰化縣和美鎮 銀星研究氣象站,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028786,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+408,25.119,121.469,關渡自然公園-入口,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028780,&starf;&starf;&starf;&starf;&starf;
+409,24.794,121.175,正義路- 關西鎮環境守護協會,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02876A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+410,22.968464169844,120.21210329291,臺南市南區大忠里 10,Malfunction,1,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028710,&star;&star;&star;&star;&star;
+411,22.9719438,120.2151042,臺南市南區大忠里0A,AirBox,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02870A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+412,23.918277,120.504515,彰化縣田尾鄉陸豐國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC028696,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+413,23.952905,120.616153,明湖國小,AirBox,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC02866E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+414,50.58,22.115,74DA38EB1F00,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=74DA38EB1F00,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+415,37.323,-122.067,74DA38E7946C,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=74DA38E7946C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+416,39.2703348,-77.1511382,08BEAC0AB56C,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB56C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+417,39.2708127,-77.1526083,08BEAC0AB562,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB562,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+418,39.270117,-77.1522423,08BEAC0AB550,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB550,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+419,-6.1727794,106.6121646,08BEAC0AB476,AirBoxK,2,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB476,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+420,39.2701469,-77.1525784,08BEAC0AB42A,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB42A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+421,39.2708448,-77.1518501,08BEAC0AB2B0,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB2B0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+422,39.2708515,-77.1510319,08BEAC0AB2AC,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB2AC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+423,39.2703601,-77.1522224,08BEAC0AB294,AirBoxK,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB294,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+424,40.42703,-79.98071,08BEAC0AB260,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AB260,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+425,39.27,-77.152,08BEAC0AA08C,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AA08C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+426,39.107,-77.264,08BEAC0AA080,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AA080,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+427,39.107,-77.264,08BEAC0AA07A,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0AA07A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+428,23.7902056,90.657111,08BEAC0A2D92,AirBoxK,2,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0A2D92,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+429,46.409,14.101,08BEAC0A2CEE,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0A2CEE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+430,46.41,14.101,08BEAC0A2CEC,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0A2CEC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+431,46.299,7.539,08BEAC0A2CE0,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0A2CE0,&starf;&starf;&starf;&starf;&starf;
+432,20.9276362,105.8503367,08BEAC09FFAC,AirBoxK,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC09FFAC,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+433,-6.243,106.875,08BEAC08AD5C,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC08AD5C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+434,13.846,100.562,08BEAC0413AC,AirBoxK,2,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0413AC,&starf;&starf;&starf;&starf;&starf;
+435,46.237,13.155,08BEAC03D388,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC03D388,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+436,50.869,7.002,08BEAC03D384,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC03D384,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+437,46.409,14.101,08BEAC03D374,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC03D374,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+438,46.409,14.101,08BEAC03D372,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC03D372,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+439,13.853,100.431,08BEAC028DA2,AirBoxK,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC028DA2,&starf;&starf;&starf;&starf;&starf;
+440,39.27,-77.151,08BEAC028CDA,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC028CDA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+441,13.77,100.339,08BEAC0287FA,AirBoxK,2,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC0287FA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+442,13.755115,100.628534,08BEAC02879E,AirBoxK,1,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC02879E,&starf;&starf;&starf;&starf;&starf;
+443,22.282551,114.213043,08BEAC028698,AirBoxK,0,0000ff,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBoxK&var-device_id=08BEAC028698,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+444,0.0,0.0,WF_8629500,LASS,1,009900,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=LASS&var-device_id=WF_8629500,&starf;&starf;&starf;&starf;&starf;
+445,0.0,0.0,WF_5441126,Malfunction,0,ff0000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=LASS&var-device_id=WF_5441126,&starf;&starf;&starf;&starf;&starf;
+446,0.0,0.0,WF_2761889,LASS,1,009900,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=LASS&var-device_id=WF_2761889,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+447,0.0,0.0,WF_2761740,LASS,1,009900,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=LASS&var-device_id=WF_2761740,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+448,0.0,0.0,WF_2428321,LASS,1,009900,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=LASS&var-device_id=WF_2428321,&starf;&starf;&starf;&starf;&starf;
+449,24.394441,120.60124,WF_15766380,LASS,1,009900,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=LASS&var-device_id=WF_15766380,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+450,0.0,0.0,WF_1154687,LASS,2,009900,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=LASS&var-device_id=WF_1154687,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+451,0.0,0.0,WF_10102495,LASS,0,009900,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=LASS&var-device_id=WF_10102495,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+452,25.044381,121.614603,AS-Campus-001,MAPS,0,a00000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=MAPS&var-device_id=B827EBC4AD87,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+453,25.018306,121.549698,B827EB797224,MAPS,1,a00000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=MAPS&var-device_id=B827EB797224,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+454,25.04782,121.61289,AS-Campus-002,MAPS,0,a00000,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=MAPS&var-device_id=B827EB551788,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+455,23.723577,120.593735,EPAIoT_9351308402,EPAIoT,0,008099,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=EPAIoT&var-device_id=EPAIoT_9351308402,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+456,24.96436,121.2806145,EPAIoT_8992951084,EPAIoT,0,008099,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=EPAIoT&var-device_id=EPAIoT_8992951084,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+457,25.104104,121.2695245,EPAIoT_8950232218,EPAIoT,0,008099,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=EPAIoT&var-device_id=EPAIoT_8950232218,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+458,23.934273,120.668045,EPAIoT_12768522662,EPAIoT,0,008099,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=EPAIoT&var-device_id=EPAIoT_12768522662,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+459,25.039046,121.569861,EPAIoT_10180711468,EPAIoT,0,008099,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=EPAIoT&var-device_id=EPAIoT_10180711468,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+460,23.9953498,121.5949453,花蓮縣立明廉國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED0630,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+461,23.468565,121.49678,花蓮縣立港口國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED04F2,&starf;&starf;&starf;&starf;&starf;
+462,23.3829887,121.3589776,花蓮縣立高寮國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED05EA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+463,23.4227934,121.3484448,花蓮縣立三民國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED05B6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+464,23.1549908,121.2663286,花蓮縣立永豐國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED0640,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+465,24.0586369,121.57125,花蓮縣立佳民國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED0454,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+466,23.7054631,121.4132132,花蓮縣立明利國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED059C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+467,23.6014426,121.5215111,花蓮縣立豐濱國中(2018),CI_Taiwan,2,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38ED06E0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+468,24.861,120.964,新竹縣縣立鳳岡國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F209DE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+469,24.791,120.957,新竹縣縣立長安國小(2018),CI_Taiwan,1,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20BE4,&starf;&star;&star;&star;&star;
+470,24.93,121.036,新竹縣縣立福龍國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F21024,&star;&star;&star;&star;&star;
+471,24.324,120.835,新竹縣縣立大坪國小(2018),CI_Taiwan,1,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20EB2,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+472,24.648,121.151,新竹縣縣立花園國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20E9E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+473,22.702,120.572,屏東縣縣立繁華國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F209A4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+474,22.363,120.599,屏東縣縣立僑德國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F209B2,&starf;&starf;&starf;&starf;&starf;
+475,22.401,120.577,屏東縣縣立東海國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F209A8,&starf;&starf;&starf;&starf;&starf;
+476,22.685,120.492,屏東縣縣立信義國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20AA4,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+477,22.204,120.7,屏東縣縣立獅子國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20902,&starf;&starf;&starf;&starf;&starf;
+478,24.688,121.766,宜蘭縣縣立竹林國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F208E2,&starf;&starf;&starf;&starf;&starf;
+479,25.127,121.746,基隆市立尚智國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20976,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+480,22.757426,121.158891,台東縣縣立仁愛國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F210F6,&starf;&starf;&starf;&starf;&starf;
+481,22.904,121.124,台東縣縣立龍田國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20A78,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+482,23.05,121.164,台東縣縣立關山國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20D70,&starf;&starf;&starf;&starf;&starf;
+483,22.971,121.303,台東縣縣立東河國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20D4C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+484,23.026,121.33,台東縣縣立信義國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F209EE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+485,23.157,121.4,台東縣縣立忠孝國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F209F8,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+486,25.062,121.451,台東縣縣立嘉蘭國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F21204,&starf;&star;&star;&star;&star;
+487,23.101,121.176,台東縣縣立海端國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20862,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+488,22.779,121.087,台東縣縣立寶桑國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F21170,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+489,23.002,121.29,台東縣縣立泰源國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20934,&starf;&starf;&starf;&starf;&starf;
+490,24.6,120.999,苗栗縣縣立南庄國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20AAA,&starf;&starf;&starf;&starf;&starf;
+491,24.41,120.902,苗栗縣縣立大南國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20E6E,&starf;&starf;&starf;&starf;&starf;
+492,26.148,119.935,連江縣縣立仁愛國小(2018),CI_Taiwan,2,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F2118E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+493,22.589,120.328,高雄市市立瑞祥國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20DE0,&star;&star;&star;&star;&star;
+494,22.6080258,120.3229833,高雄市市立樂群國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20DD0,&star;&star;&star;&star;&star;
+495,22.711,120.295,高雄市市立莒光國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20DC0,&star;&star;&star;&star;&star;
+496,22.783,120.247,高雄市市立彌陀國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20B26,&star;&star;&star;&star;&star;
+497,22.847,120.465,高雄市市立溪洲國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20B82,&starf;&starf;&starf;&starf;&starf;
+498,22.798,120.293,高雄市市立壽天國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20B5C,&star;&star;&star;&star;&star;
+499,22.599,120.35,高雄市市立中崙國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20B80,&star;&star;&star;&star;&star;
+500,22.75,120.316,高雄市市立興糖國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20B88,&star;&star;&star;&star;&star;
+501,22.595,120.341,高雄市市立鳳翔國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F21048,&star;&star;&star;&star;&star;
+502,22.894,120.298,高雄市市立中路國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20FFE,&starf;&starf;&starf;&starf;&starf;
+503,22.688,120.408,高雄市市立龍目國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20BD0,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+504,22.898,120.627,高雄市市立新威國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F21054,&starf;&starf;&starf;&starf;&starf;
+505,23.108,120.7,高雄市市立寶來國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F2104E,&star;&star;&star;&star;&star;
+506,22.603,120.34,高雄市市立正義國小(2018),CI_Taiwan,1,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F207DE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+507,22.91,120.716,高雄市市立多納國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20B12,&starf;&starf;&starf;&starf;&starf;
+508,22.995,120.635,高雄市市立新發國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20F0A,&starf;&starf;&starf;&starf;&starf;
+509,22.729,120.357,高雄市市立大社國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20C22,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+510,22.676,120.342,高雄市市立大灣國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20C26,&starf;&starf;&star;&star;&star;
+511,22.586,120.313,高雄市市立興仁國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20E34,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+512,22.661,120.301,高雄市市立明華國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20D6C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+513,22.63,120.348,高雄市市立青年國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20AE6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+514,22.728,120.313,高雄市楠梓特殊學校(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F2113E,&starf;&starf;&starf;&star;&star;
+515,25.062,121.451,新北市復興國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C4CC,&starf;&starf;&starf;&starf;&starf;
+516,24.995,121.52,新北市秀山國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C40C,&starf;&starf;&starf;&starf;&starf;
+517,25.002,121.516,新北市永和國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C366,&starf;&starf;&starf;&starf;&starf;
+518,24.972,121.537,新北市中正國小(2018),CI_Taiwan,3,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C3DE,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+519,25.107,121.843,新北市九份國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C5E6,&starf;&starf;&starf;&starf;&starf;
+520,25.11,121.804,新北市瑞芳高工(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C53C,&starf;&starf;&starf;&star;&star;
+521,25.111,121.856,新北市雙溪高中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C37C,&starf;&starf;&starf;&starf;&starf;
+522,25.079,121.671,新北市長安國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C560,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+523,25.067,121.641,新北市樟樹國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C53A,&star;&star;&star;&star;&star;
+524,25.239,121.63,新北市中角國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C570,&starf;&starf;&starf;&starf;&starf;
+525,25.066,121.656,新北市汐止國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C5CE,&starf;&starf;&starf;&starf;&starf;
+526,25.051,121.448,新北市榮富國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C566,&starf;&starf;&starf;&starf;&starf;
+527,25.055,121.455,新北市昌平國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C47C,&starf;&starf;&starf;&starf;&starf;
+528,25.053963,121.427681,新北市同榮國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C47E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+529,25.053,121.444,新北市中平國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C27E,&starf;&starf;&starf;&starf;&starf;
+530,25.02,121.416,新北市丹鳳高中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C29C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+531,25.065,121.425,新北市泰山國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C260,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+532,25.174,121.441,新北市天生國小(2018),CI_Taiwan,3,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C3BA,&starf;&starf;&starf;&starf;&starf;
+533,25.09,121.462,新北市鷺江國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C4DE,&starf;&starf;&starf;&starf;&starf;
+534,25.011,121.458,新北市板橋國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C338,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+535,24.998,121.425,新北市文林國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C63C,&star;&star;&star;&star;&star;
+536,25.002,121.414,新北市武林國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C39A,&starf;&starf;&starf;&starf;&starf;
+537,24.981,121.423,新北市彭福國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C430,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+538,24.93,121.372,新北市安溪國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C31C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+539,24.929,121.378,新北市介壽國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C3B2,&starf;&starf;&star;&star;&star;
+540,25.006,121.413,新北市三多國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C464,&starf;&starf;&starf;&starf;&starf;
+541,24.948,121.372,新北市北大高中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20A30,&starf;&starf;&starf;&starf;&star;
+542,25.063,121.564,市立三民國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C610,&starf;&starf;&starf;&starf;&starf;
+543,25.031,121.563,市立信義國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C616,&starf;&starf;&starf;&starf;&starf;
+544,25.045,121.541,市立懷生國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C3D6,&starf;&starf;&starf;&starf;&starf;
+545,25.054,121.517,市立日新國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C41E,&starf;&starf;&starf;&starf;&starf;
+546,25.003,121.539,市立武功國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C3DC,&starf;&starf;&starf;&starf;&starf;
+547,25.002,121.552,市立興隆國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C524,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+548,25.079,121.58,市立內湖國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20BCA,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+549,25.068,121.588,市立新湖國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F21088,&starf;&starf;&starf;&starf;&starf;
+550,25.088,121.599,市立大湖國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F2105C,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+551,25.12,121.466,市立關渡國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F210A2,&star;&star;&star;&star;&star;
+552,25.119,121.505,市立立農國小(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F21136,&starf;&starf;&starf;&starf;&starf;
+553,25.06,121.545,市立中山國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20D2E,&starf;&starf;&starf;&starf;&star;
+554,25.048,121.573,市立敦化國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20D2A,&starf;&starf;&starf;&starf;&starf;
+555,25.048,121.573,市立永吉國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20D1E,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+556,25.078,121.541,市立北安國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20D1A,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+557,25.062,121.526,市立新興國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F20D16,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+558,25.051,121.518,市立建成國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C514,&starf;&starf;&starf;&starf;&starf;
+559,25.07,121.586,市立三民國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C600,&starf;&starf;&star;&star;&star;
+560,25.092,121.523,市立士林國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C5BE,&starf;&starf;&starf;&starf;&starf;
+561,25.103,121.487,市立福安國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C59C,&starf;&star;&star;&star;&star;
+562,25.107,121.518,市立明德國中(2018),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=74DA38F7C5A0,&starf;&starf;&starf;&starf;&starf;
+563,23.722474,120.308518,雲林縣縣立龍岩國小(2019),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0A0880,&starf;&starf;&starf;&starf;&starf;
+564,23.198459,120.159551,臺南市市立漚汪國小(2019),CI_Taiwan,1,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC0A05F6,<font color="#990000">&#8212;&#8212;&#8212;&#8212;&#8212;</font>
+565,23.4844262,120.4874326,嘉義市市立文雅國小(2020),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC245DA6,&star;&star;&star;&star;&star;
+566,24.6752335,121.0590723,新竹縣縣立大坪國小(2020),CI_Taiwan,0,ee3311,/grafana/d/airbox_dashboard_v3/airdata?orgId=2&var-source=AirBox&var-device_id=08BEAC252BA0,&starf;&starf;&starf;&starf;&starf;
