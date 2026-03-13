@@ -58,6 +58,7 @@ const dom = {
   legendContent: document.getElementById("legend-content"),
   legendToggle: document.getElementById("legend-toggle"),
   selectedPanel: document.getElementById("selected-panel"),
+  logoTime: document.getElementById("logo-time"),
   status: document.getElementById("status"),
   mobileToggle: document.getElementById("mobile-panel-toggle"),
   leftPanel: document.getElementById("left-panel"),
@@ -77,6 +78,28 @@ let latestProjectedPoints = [];
 function setStatus(message, isError = false) {
   dom.status.textContent = message;
   dom.status.classList.toggle("is-error", isError);
+}
+
+function formatDockTime(now = new Date()) {
+  const local = now.toLocaleString("zh-TW", {
+    hour12: false,
+    timeZone: "Asia/Taipei",
+    timeZoneName: "short"
+  });
+  return `Current Time (Asia/Taipei): ${local}`;
+}
+
+function startLogoClock() {
+  if (!dom.logoTime) {
+    return;
+  }
+
+  const refresh = () => {
+    dom.logoTime.textContent = formatDockTime();
+  };
+
+  refresh();
+  window.setInterval(refresh, 1000);
 }
 
 function formatLastUpdated(rawValue) {
@@ -593,6 +616,7 @@ function initMap() {
 }
 
 function bootstrap() {
+  startLogoClock();
   buildLegend();
   renderSelectedPanel(null);
   setupMobilePanels();

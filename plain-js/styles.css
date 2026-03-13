@@ -55,8 +55,9 @@ body {
   bottom: 14px;
   z-index: 1000;
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
-  gap: 10px;
+  gap: 6px;
   padding: 6px 8px;
   border: 1px solid rgba(255, 255, 255, 0.42);
   border-radius: 12px;
@@ -64,11 +65,30 @@ body {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
-.logo-dock img {
+.logo-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-link img {
   height: 30px;
   width: auto;
   display: block;
   object-fit: contain;
+}
+
+.logo-time {
+  font-size: 12px;
+  line-height: 1.2;
+  color: #1f2a36;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .control-row {
@@ -202,8 +222,16 @@ body {
     border-radius: 10px;
   }
 
-  .logo-dock img {
+  .logo-links {
+    gap: 8px;
+  }
+
+  .logo-link img {
     height: 24px;
+  }
+
+  .logo-time {
+    font-size: 11px;
   }
 
   .selected-panel { left: 10px; right: auto; bottom: 10px; min-height: 72px; width: min(92vw, 420px); max-width: calc(100% - 20px); }

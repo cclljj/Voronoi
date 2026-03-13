@@ -33,10 +33,19 @@
 
       <section id="selected-panel" class="selected-panel" aria-live="polite"></section>
 
-      <div id="logo-dock" class="logo-dock" aria-hidden="true">
-        <img src="./images/AS-logo.png" alt="" />
-        <img src="./images/LASS-logo.png" alt="" />
-        <img src="./images/GHRepo-logo.png" alt="" />
+      <div id="logo-dock" class="logo-dock" aria-label="Partner links and current time">
+        <div class="logo-links">
+          <a class="logo-link" href="https://www.iis.sinica.edu.tw/index_zh.html" target="_blank" rel="noopener noreferrer" aria-label="Academia Sinica">
+            <img src="./images/AS-logo.png" alt="Academia Sinica" />
+          </a>
+          <a class="logo-link" href="https://lass-net.org/" target="_blank" rel="noopener noreferrer" aria-label="LASS Network">
+            <img src="./images/LASS-logo.png" alt="LASS" />
+          </a>
+          <a class="logo-link" href="https://github.com/cclljj/Voronoi" target="_blank" rel="noopener noreferrer" aria-label="Voronoi GitHub repository">
+            <img src="./images/GHRepo-logo.png" alt="GitHub Repository" />
+          </a>
+        </div>
+        <div id="logo-time" class="logo-time" aria-live="polite"></div>
       </div>
 
       <button id="mobile-panel-toggle" class="mobile-panel-toggle" type="button" aria-expanded="false" aria-controls="left-panel legend-panel">
